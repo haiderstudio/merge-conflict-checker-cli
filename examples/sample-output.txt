@@ -1,0 +1,11 @@
+--- check the clean file ---
+OK — 1 file(s) checked, no merge-conflict markers.
+--- check the conflicted files ---
+FAIL examples/conflicted-diff3.txt:2: conflict start marker '<<<<<<< HEAD'
+FAIL examples/conflicted-diff3.txt:4: diff3 base marker '||||||| merged common ancestors'
+FAIL examples/conflicted-diff3.txt:6: conflict separator marker '======='
+FAIL examples/conflicted-diff3.txt:8: conflict end marker '>>>>>>> feature-port'
+FAIL examples/conflicted.py:2: conflict start marker '<<<<<<< HEAD'
+FAIL examples/conflicted.py:4: conflict separator marker '======='
+FAIL examples/conflicted.py:6: conflict end marker '>>>>>>> feature-greeting'
+Checked 2 file(s), 7 marker(s) in 2 file(s).
